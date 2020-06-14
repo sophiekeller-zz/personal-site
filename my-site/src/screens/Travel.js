@@ -55,61 +55,61 @@ export default class Travel extends React.Component {
             {color: '#507dbc'}
             )
             .setLngLat([-87.788663, 42.149117])
-            .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/botanic.2b84ccb3.png"><h2>Chicago Bontanic Gardens</h2>'))
+            .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/botanic.png"><h2>Chicago Bontanic Gardens</h2>'))
             .addTo(map)
           var marker = new mapboxgl.Marker(
             {color: '#507dbc'}
               )
             .setLngLat([-85.4513,36.5378])
-            .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/dalehollow.0276fb98.png"><h2>Dalehollow Lake</h2>'))
+            .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/dalehollow.png"><h2>Dalehollow Lake</h2>'))
             .addTo(map)//fix image here
             var marker = new mapboxgl.Marker(
              {color: '#507dbc'}
              )
              .setLngLat([8.0414,44.6242])
-             .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/grindelwald.6c7cb3a9.png"><h2>Grindelwald</h2>'))
+             .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/grindelwald.png"><h2>Grindelwald</h2>'))
              .addTo(map)
             var marker = new mapboxgl.Marker(
               {color: '#507dbc'}
               )
               .setLngLat([-91.1353, -0.8292])
-              .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/galapagos.454e6de5.png"><h2>Galapagos Islands</h2>'))
+              .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/galapagos.png"><h2>Galapagos Islands</h2>'))
               .addTo(map)
               var marker = new mapboxgl.Marker(
                {color: '#507dbc'}
                )
                .setLngLat([-80.7526,32.2163])
-               .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/hilton.5ef2dfe8.png"><h2>Hilton Head</h2>'))
+               .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/hilton.png"><h2>Hilton Head</h2>'))
                .addTo(map)
               var marker = new mapboxgl.Marker(
                 {color: '#507dbc'}
                 )
                 .setLngLat([-77.0428, -12.0464])
-                .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/lima.089a6b33.png"><h2>Lima</h2>'))
+                .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/lima.png"><h2>Lima</h2>'))
                 .addTo(map)
               var marker = new mapboxgl.Marker(
                 {color: '#507dbc'}
                   )
                 .setLngLat([-72.2643, -13.2584])
-                .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/inca.4c0e4ce7.png"><h2>Inca Trail</h2>'))
+                .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/inca.png"><h2>Inca Trail</h2>'))
                 .addTo(map)
                 var marker = new mapboxgl.Marker(
                  {color: '#507dbc'}
                  )
                  .setLngLat([-71.1712,41.5101])
-                 .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/littlecompton.51505727.png"><h2>Little Compton</h2>'))
+                 .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/littlecompton.png"><h2>Little Compton</h2>'))
                  .addTo(map)
                 var marker = new mapboxgl.Marker(
                   {color: '#507dbc'}
                   )
                   .setLngLat([-72.5450, -13.1631])
-                  .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/macchu.06a7661f.png"><h2>Macchu Picchu</h2>'))
+                  .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/macchu.png"><h2>Macchu Picchu</h2>'))
                   .addTo(map)
                 var marker = new mapboxgl.Marker(
                   {color: '#507dbc'}
                     )
                   .setLngLat([2.2945, 48.8584])
-                  .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/paris.a2790f54.png"><h2>Paris</h2>'))
+                  .setPopup(new mapboxgl.Popup().setHTML('<img width = "150px" src="/static/media/paris.png"><h2>Paris</h2>'))
                   .addTo(map)
 
     }

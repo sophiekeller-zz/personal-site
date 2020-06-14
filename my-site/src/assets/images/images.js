@@ -24,7 +24,18 @@ export default {
     woman: require("./buswomen.png"),
     mac: require("./macrame.png"),
     hiking: require("./hiking.png"),
-    adiron: require("./adiron.png"),
-    aephi: require("./place/aephi.png"),
-    botanic: require("./place/botanic.png")
+    adiron: require("./place/aephi.png"),
+    albany: require("./place/albany.png"),
+    botanic: require("./place/botanic.png"),
+    cuzco: require("./place/cuzco.png"),
+    dalehollow: require("./place/dalehollow.png"),
+    galapagos: require("./place/galapagos.png"),
+    grindelwald: require("./place/grindelwald.png"),
+    hilton: require("./place/hilton.png"),
+    inca: require("./place/inca.png"),
+    ithaca: require("./place/ithaca.png"),
+    lima: require("./place/lima.png"),
+    littlecompton: require("./place/littlecompton.png"),
+    macchu: require("./place/macchu.png"),
+    paris: require("./place/paris.png")
 };
