@@ -42,5 +42,42 @@ export default {
     surprise: require("./place/surprise.png"),
     torch: require("./place/torch.png"),
     towerlondon: require("./place/towerlondon.png"),
-    urubamba: require("./place/urubamba.png")
+    urubamba: require("./place/urubamba.png"),
+    yellowstone: require("./place/yellowstone.png"),
+    alcatraz: require("./place/alcatraz.png"),
+    antelope: require("./place/antelope.png"),
+    banff: require("./place/banff.png"),
+    bigsur: require("./place/bigsur.png"),
+    bryce: require("./place/bryce.png"),
+    calgary: require("./place/calgary.png"),
+    cincinatti: require("./place/cincinatti.png"),
+    dachstein: require("./place/dachstein.png"),
+    disney: require("./place/disney.png"),
+    gaschurn: require("./place/gaschurn.png"),
+    glacier: require("./place/glacier.png"),
+    grandcan: require("./place/grandcan.png"),
+    hearstcastle: require("./place/hearstcastle.png"),
+    yellowstone: require("./place/yellowstone.png"),
+    horseshoe: require("./place/horseshoe.png"),
+    jungholz: require("./place/jungholz.png"),
+    keylargo: require("./place/keylargo.png"),
+    losangeles: require("./place/losangeles.png"),
+    miami: require("./place/miami.png"),
+    monterey: require("./place/monterey.png"),
+    nesselwang: require("./place/nesselwang.png"),
+    raftglac: require("./place/raftglac.png"),
+    rottweil: require("./place/rottweil.png"),
+    salzberg: require("./place/salzburg.png"),
+    sangfran: require("./place/sanfran.png"),
+    santabarb: require("./place/santabarb.png"),
+    santamon: require("./place/santamon.png"),
+    seal: require("./place/seal.png"),
+    vienna: require("./place/vienna.png"),
+    whitepocket: require("./place/whitepocket.png"),
+    zion: require("./place/zion.png"),
+
+
+
+
+
 };
