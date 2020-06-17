@@ -1,10 +1,18 @@
 import React from "react";
-import { screenId } from "../constants.js";
 
-import images from "../assets/images/images.js";
-
+/*
+* Block components comprise the tiles on the About screenId
+*
+* Props:
+*     mobile: whether or not screen is mobile, bool
+*     color: color of the tile, either "light" or "dark"
+*     title: title of the block, string
+*     description: description of the block, string
+*     image: image to be included in block, image url/string
+*/
 export default class Block extends React.Component {
   render() {
+     //set classesNames according to this.props.color
     if (this.props.color == "light"){
         var block = "block-container light";
         var title = "block-title light";

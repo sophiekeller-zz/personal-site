@@ -1,14 +1,21 @@
 import React from "react";
 
-//COMPONENTS
-import Footer from "../components/Footer";
+//CONSTANTS
 import images from "../assets/images/images.js"
+
+//COMPONENTS
 import WorkSection from "../components/WorkSection.js";
 import Title from "../components/Title.js"
 
+/*
+* Work screen renders Role and Project sections with Titles to demonstrate work
+* experience. Work components are only used by App.js
+*
+* Props:
+*   mobile: whether or not screen is mobile, bool
+*/
 export default class Work extends React.Component{
   render() {
-    //notation passes along all props from the Home component to child components
     return (
       <div className="home-container">
         <div className = "work-section-container">
@@ -31,11 +38,12 @@ export default class Work extends React.Component{
 }
 }
 
+//consts for file -> title, subtitle, and text for each position
 const ewh_title = "Business Lead"
 const ewh_org = "Cornell Engineering World Health"
 const ewh_text = "Cornell engineering world health is an undergraduate engineering project team at Cornell that aims to create meaningful impact through innovative tech solutions and promoting human welfare. As the business lead of the team, I run the team website, oversee finances and budgeting, lead marketing initiatives, and promote positive team culture."
 const cis_title = "Consultant (Teaching Assistant)"
-const cis_org = "Cornell Computing and Information Science Department"
+const cis_org = "Cornell CIS Department"
 const cis_text = "As a consultant for CS1110, I provide instruction and support for Cornell students in Intro to Computer Science in Python course via hosting discussion sections, office hours, and assignment and exam grading."
 const tour_title = "Campus Tour Guide"
 const tour_org = "Cornell Visitor Relations"

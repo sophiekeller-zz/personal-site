@@ -1,17 +1,24 @@
 import React from "react";
 
 //COMPONENTS
-import Footer from "../components/Footer";
-import images from "../assets/images/images.js"
 import Title from "../components/Title"
 
-export default class Travel extends React.Component {
+/*
+* Interest screen renders sections of content I'm interested in with images.
+* Interest components are only used by App.js
+*
+* Props:
+*   mobile: whether or not screen is mobile, bool
+*/
+export default class Interest extends React.Component {
   render() {
+      //change classes to specify mobile/non mobile style
       if (this.props.mobile){
           var img_cont = "m-podcast-images-container"
           var moth = "m-themoth pod-pic"
           var radio = "m-radio pod-pic"
           var amer = "m-this-amer pod-pic"
+          //customize organization of books for mobile version
           var books = (<div class = "books-container">
               <div class = "books-row">
               <div class = "smallthings m-book"></div>
@@ -38,6 +45,7 @@ export default class Travel extends React.Component {
           var moth = "themoth pod-pic"
           var radio = "radio pod-pic"
           var amer = "this-amer pod-pic"
+          //customize organization of books for non-mobile version
           var books = (<div class = "books-container">
               <div class = "books-row">
               <div class = "smallthings book"></div>
@@ -56,7 +64,6 @@ export default class Travel extends React.Component {
               </div>
           </div>)
       }
-      var arrows = "/////"
     //notation passes along all props from the Home component to child components
     return (
       <div className="home-container">

@@ -1,8 +1,14 @@
 import React from "react";
-import { screenId } from "../constants.js";
 
-import images from "../assets/images/images.js";
-
+/*
+* Navbutton component is used by Navbar component to generate individual
+* buttons for each page
+*
+* Props:
+*     pageName: title of page button corresponds to, string
+*     switchPage: function to call when clicked (to switch page)
+*     selected: whether or not button's page is selected, bool
+*/
 export default class NavButton extends React.Component {
   render() {
     return (
@@ -10,7 +16,7 @@ export default class NavButton extends React.Component {
         className={this.props.selected ? "nav-button-selected" : "nav-button"}
         onClick={() => this.props.switchPage()}
       >
-        {this.props.pagename}
+        {this.props.pageName}
       </div>
     );
   }
