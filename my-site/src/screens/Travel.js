@@ -52,6 +52,7 @@ export default class Travel extends React.Component {
              .setPopup(new mapboxgl.Popup().setHTML("<img width = '200px' src='/static/media/"+item.img+"'><h2>"+item.title+"</h2>"))
              .addTo(map)
         }
+        //add popup for user info
         var popup = new mapboxgl.Popup({ closeOnClick: false })
             .setLngLat([-100,57])
             .setHTML('<h3>Click a pin for more info!</h3>')
