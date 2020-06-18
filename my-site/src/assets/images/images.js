@@ -110,8 +110,29 @@ export default {
     bullfr: require("./place/bullfroglake.png"),
     buck: require("./place/buckisland.png"),
     boyn: require("./place/boyne.png"),
-    bosto: require("./place/boston.png"),
-    beth: require("./place/bethlehempa.png"),
+    boston: require("./place/boston.png"),
+    bean: require("./place/bean.png"),
+    blue: require("./place/bluelagoon.png"),
+    central: require("./place/centralpark.png"),
+    charlie: require("./place/charliessmokeys.png"),
+    delmar: require("./place/delmar.png"),
+    gulf: require("./place/gulfoss.png"),
+    hafna: require("./place/hafnarfjordur.png"),
+    myst: require("./place/mystic.png"),
+    plym: require("./place/plymouth.png"),
+    porla: require("./place/porlashofkn.png"),
+    reyk: require("./place/reykjavic.png"),
+    roch: require("./place/rochester.png"),
+    skoga: require("./place/skogafoss.png"),
+    soho: require("./place/soho.png"),
+    stir: require("./place/stirbridge.png"),
+    thing: require("./place/thingvellir.png"),
+    top: require("./place/toptonnc.png"),
+
+
+
+
+
 
 
 

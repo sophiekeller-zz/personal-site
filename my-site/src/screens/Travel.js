@@ -52,6 +52,10 @@ export default class Travel extends React.Component {
              .setPopup(new mapboxgl.Popup().setHTML("<img width = '200px' src='/static/media/"+item.img+"'><h2>"+item.title+"</h2>"))
              .addTo(map)
         }
+        var popup = new mapboxgl.Popup({ closeOnClick: false })
+            .setLngLat([-100,57])
+            .setHTML('<h3>Click a pin for more info!</h3>')
+            .addTo(map);
     }
   render() {
       //change classes to specify mobile/non mobile style
@@ -164,6 +168,26 @@ const info = [
     {coord:[12.3155,45.4408],img: "venice.png", title: "Venice"},
     {coord:[-89.4693,41.9935],img: "whitepines.png", title: "White Pines State Park"},
     {coord:[-122.4783,37.8199],img: "sanfran.png", title: "San Francisco"},
+    {coord:[-83.7032,35.2470],img: "toptonnc.png", title: "Topton"},
+    {coord:[-21.12822,64.25543],img: "thingvellir.png", title: "Thingvellir"},
+    {coord:[-72.0787,42.1084],img: "stirbridge.png", title: "Sturbridge"},
+    {coord:[-74.01051,40.7222],img: "soho.png", title: "Soho"},
+    {coord:[-19.5114,63.5321],img: "skogafoss.png", title: "Skogafoss"},
+    {coord:[-77.6013,43.2613],img: "rochester.png", title: "Rochester"},
+    {coord:[-21.9392,64.1499],img: "reykjavic.png", title: "Reykjavik"},
+    {coord:[-21.2237,63.8778],img: "porlashofkn.png", title: "Porlakshofn"},
+    {coord:[-70.6673,41.9584],img: "plymouth.png", title: "Plymouth"},
+    {coord:[-71.9665,41.3543],img: "mystic.png", title: "Mystic"},
+    {coord:[-21.9999,63.86666],img: "hafnarfjordur.png", title: "Hafnarfjordur"},
+    {coord:[-20.1199,64.3271],img: "gulfoss.png", title: "Gulfoss"},
+    {coord:[-73.8326,42.6220],img: "delmar.png", title: "San Francisco"},
+    {coord:[-83.3718,35.6393],img: "charliessmokeys.png", title: "Smokey Mountains"},
+    {coord:[-73.9654,40.7829],img: "centralpark.png", title: "Central Park"},
+    {coord:[-22.4494,63.8803],img: "bluelagoon.png", title: "Blue Lagoon"},
+    {coord:[-87.6233,41.8827],img: "bean.png", title: "Chicago"},
+
+
+
 
 
 ]
