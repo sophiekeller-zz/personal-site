@@ -1,0 +1,41 @@
+{
+    "roles": [{
+            "title": "Software Development Intern",
+            "organization": "Qualytics",
+            "image_title": "qualytics",
+            "text": "This summer, I worked as a full stack developer at a data quality surveillance company called Qualytics where I was tasked with developing multiple iterations of a dynamic React web application, creating and maintaining a relational SQL database, and writing a custom Google Bigquery extractor interfaced with a custom loader. I interfaced with a designer for the front end of the application and worked with engineers developing the ETL, considering both user experience as well as system integration as I worked. I additionally integrated AWS Amplify authentication and completed extensive unit and integration testing for the web app, tap, and target"
+        }, {
+            "title": "Business Lead",
+            "organization": "Cornell Engineering World Health",
+            "image_title": "ewh",
+            "text": "Cornell engineering world health is an undergraduate engineering project team at Cornell that aims to create meaningful impact through innovative tech solutions and promoting human welfare. As the business lead of the team, I run the team website, oversee finances and budgeting, lead marketing initiatives, and promote positive team culture."
+        }, {
+            "title": "Consultant (Teaching Assistant)",
+            "organization": "Cornell CIS Department",
+            "image_title": "cis",
+            "text": "As a consultant for CS1110, I provide instruction and support for Cornell students in Intro to Computer Science in Python course via hosting discussion sections, office hours, and assignment and exam grading."
+        },
+        {
+            "title": "Campus Tour Guide",
+            "organization": "Cornell Visitor Relations",
+            "image_title": "cornell",
+            "text": "As a tour guide, I promote interest in Cornell by leading groups of 30+ prospective students and their families on informational campus tours. Additionally, as part of this role, I operate the campus information desk, university phone line, and manage the on-campus parking system to facilitate visitor logistics on campus."
+        }
+    ],
+    "projects": [{
+        "title": "Space Invaders in Python",
+        "organization": "",
+        "image_title": "space",
+        "text": "I coded the functionality for a simple Space Invadors game in Python with Turtles."
+    }, {
+        "title": "Movie Master",
+        "organization": "Personal Project",
+        "image_title": "moviemaster",
+        "text": "This 3-tier project provides complex search engine and recommendations algorithm including data on thousands of films. I wrote Python web scraper script to accumulate data, fed into a MySQL database, and created a Node JS backend to query MySQL database and feed dynamic React Frontend via Express. My partner and I are currently developing our recommendations algorithm, integrated with NLP considerations such as Word Movers and Cosine Similarity."
+    }, {
+        "title": "Office Hours App",
+        "organization": "App Dev Course",
+        "image_title": "off",
+        "text": "In this app development project, I coded the front-end in Swift for an application used to organize students' office hour schedules. The app was fully integrated with a course API written by other team members."
+    }]
+}

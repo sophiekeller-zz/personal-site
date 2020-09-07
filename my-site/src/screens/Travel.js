@@ -57,6 +57,7 @@ export default class Travel extends React.Component {
             .setLngLat([-100,57])
             .setHTML('<h3>Click a pin for more info!</h3>')
             .addTo(map);
+
     }
   render() {
       //change classes to specify mobile/non mobile style
