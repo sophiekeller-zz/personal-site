@@ -1,4 +1,12 @@
 /* Styles in App */
+.div {
+  transition: all 2s;
+}
+
+.home-container{
+  min-height: 50vh;
+}
+
 .main-container {
   min-height: 100vh;
   min-width: 100vw;
@@ -212,6 +220,7 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
   justify-content: center;
+  transition-duration: 1s;
 }
 .m-info-block-container {
   display: flex;
@@ -220,6 +229,7 @@
   padding-top: 10vw;
   padding-bottom: 10vw;
   justify-content: center;
+  transition-duration: 1s;
 }
 .column {
   padding-left: 1vw;
@@ -344,6 +354,8 @@
   display: flex;
   width: 35vw;
   height: 35vw;
+  object-fit: cover;
+  border-radius: 50%;
   text-align: center;
   justify-content: center;
   align-items: center;

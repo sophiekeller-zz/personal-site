@@ -1,15 +1,24 @@
 {
-    "roles": [{
-            "title": "Software Development Intern",
+    "roles": [
+        {
+            "title": "Software Engineering Intern",
+            "organization": "Gusto",
+            "image_title": "gusto",
+            "text": "Summer 2021, I interned at Gusto where I was placed on the FinTech sub-team of the Product Platform Team. For my full stack project, I built a tool to support the process of debugging problems that arise during daily payment reconciliations. This project required development of a suite of Ruby on Rails API endpoints, a complex React frontend, and a multitude of MySQL data migrations. After completing this project with time to spare, I focused on improving performance of a few heavy database queries my tool ran, partnering with the Infrastructure team to perform database structure alterations that improved speeds on other highly trafficked pages within the system. "
+        },
+        {
+            "title": "Software Engineering Intern",
             "organization": "Qualytics",
             "image_title": "qualytics",
-            "text": "This summer, I worked as a full stack developer at a data quality surveillance company called Qualytics where I was tasked with developing multiple iterations of a dynamic React web application, creating and maintaining a relational SQL database, and writing a custom Google Bigquery extractor interfaced with a custom loader. I interfaced with a designer for the front end of the application and worked with engineers developing the ETL, considering both user experience as well as system integration as I worked. I additionally integrated AWS Amplify authentication and completed extensive unit and integration testing for the web app, tap, and target"
-        }, {
+            "text": "For a year, I worked as a full stack developer at a data quality surveillance company called Qualytics. I wore many hats there, creating and maintaining a relational SQL database, writing and testing dozens of RESTful endpoints for the customer-facing site, and building a custom Google Bigquery data pipeline. After trying my hand at developing a data pipeline, I took on a Kafka pipeline that was used multiple places in the codebase, requiring me to understand the product’s tech stack holistically. Working with Kafka also brought exposure to Docker containers and TCP/IP network engineering. I was granted freedom in driving my work, whether it was designing authentication plans or restructuring the database for scalability, shaping me to be an active participant in collaborations. The start-up environment exposed me to a variety of technologies while pushing me to learn on the go, often with little guidance."
+        },
+        {
             "title": "Business Lead",
             "organization": "Cornell Engineering World Health",
             "image_title": "ewh",
             "text": "Cornell engineering world health is an undergraduate engineering project team at Cornell that aims to create meaningful impact through innovative tech solutions and promoting human welfare. As the business lead of the team, I run the team website, oversee finances and budgeting, lead marketing initiatives, and promote positive team culture."
-        }, {
+        },
+        {
             "title": "Consultant (Teaching Assistant)",
             "organization": "Cornell CIS Department",
             "image_title": "cis",
@@ -20,22 +29,44 @@
             "organization": "Cornell Visitor Relations",
             "image_title": "cornell",
             "text": "As a tour guide, I promote interest in Cornell by leading groups of 30+ prospective students and their families on informational campus tours. Additionally, as part of this role, I operate the campus information desk, university phone line, and manage the on-campus parking system to facilitate visitor logistics on campus."
+        },
+        {
+            "title": "Computer Science Instructor",
+            "organization": "Juni Learning",
+            "image_title": "juni",
+            "text": "I worked as a Computer Science Instructor at Juni Learning, instructing ten 3rd to 9th grade student in Python programming via one-to-one conferencing classes. "
         }
     ],
-    "projects": [{
-        "title": "Space Invaders in Python",
-        "organization": "",
-        "image_title": "space",
-        "text": "I coded the functionality for a simple Space Invadors game in Python with Turtles."
-    }, {
-        "title": "Movie Master",
-        "organization": "Personal Project",
-        "image_title": "moviemaster",
-        "text": "This 3-tier project provides complex search engine and recommendations algorithm including data on thousands of films. I wrote Python web scraper script to accumulate data, fed into a MySQL database, and created a Node JS backend to query MySQL database and feed dynamic React Frontend via Express. My partner and I are currently developing our recommendations algorithm, integrated with NLP considerations such as Word Movers and Cosine Similarity."
-    }, {
-        "title": "Office Hours App",
-        "organization": "App Dev Course",
-        "image_title": "off",
-        "text": "In this app development project, I coded the front-end in Swift for an application used to organize students' office hour schedules. The app was fully integrated with a course API written by other team members."
-    }]
+    "projects": [
+        {
+            "title": "Itinerary Pal",
+            "organization": "",
+            "image_title": "itinerary",
+            "text": "My team developed a Flask app to recommend travel itinerary activities/destinations based on language analysis of hotel, restaurant, and attraction reviews. To perform this analysis, our app calculated cosine similarities with Singular Value Decomposition to develop performant algorithm for suggestion. "
+        },
+        {
+            "title": "Gin Rummy",
+            "organization": "",
+            "image_title": "gin",
+            "text": "I coded the functionality for a Gin Rummy Card Game in OCaml for a class project. I was primarily responsible for coding a GUI from scratch using the OCaml Graphics library and implementing autoplayer logic for the game."
+        },
+        {
+            "title": "Space Invaders in Python",
+            "organization": "",
+            "image_title": "space",
+            "text": "I coded the functionality for a simple Space Invadors game in Python with Turtles."
+        },
+        {
+            "title": "Movie Master",
+            "organization": "Personal Project",
+            "image_title": "moviemaster",
+            "text": "This 3-tier project provides complex search engine and recommendations algorithm including data on thousands of films. I wrote Python web scraper script to accumulate data, fed into a MySQL database, and created a Node JS backend to query MySQL database and feed dynamic React Frontend via Express. My partner and I are currently developing our recommendations algorithm, integrated with NLP considerations such as Word Movers and Cosine Similarity."
+        },
+        {
+            "title": "Office Hours App",
+            "organization": "App Dev Course",
+            "image_title": "off",
+            "text": "In this app development project, I coded the front-end in Swift for an application used to organize students' office hour schedules. The app was fully integrated with a course API written by other team members."
+        }
+    ]
 }
